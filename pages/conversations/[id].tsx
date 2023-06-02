@@ -22,7 +22,7 @@ export default function Conversation(props: IConversationProps) {
   const { conversation, messages } = props;
 
   return (
-    <div className={`flex max-h-screen px-[10%] py-[5%] ${inter.className}`}>
+    <div className={`flex h-screen px-[10%] py-[5%] ${inter.className}`}>
       <Sidebar />
       <ConversationScreen messages={messages} conversation={conversation} />
     </div>
